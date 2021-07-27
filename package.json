@@ -1,0 +1,18 @@
+{
+  "name": "speech-recognition",
+  "version": "0.0.1",
+  "description": "Telegram bot for recognition voice message",
+  "main": "index.js",
+  "author": "<kapishdima@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^4.5.5",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12",
+    "telegraf": "^4.4.1"
+  }
+}
